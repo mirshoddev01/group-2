@@ -761,7 +761,7 @@
 }
 
 footer {
-    margin-top: 440px;
+    margin-top: 350px;
 }
 
 .firstimg {
@@ -787,6 +787,7 @@ footer {
 }
 
 .help p {
+    display: inline-block;
     width: 352px;
     margin-left: 290px;
     margin-top: 30px;
@@ -798,12 +799,14 @@ footer {
     color: #000000;
     margin-top: 15px;
 }
-
-.input-1 {
+.inputone {
+    display: inline-block;
     width: 440px;
     height: 50px;
+    border: none;
     background: rgba(0, 9, 60, 0.1);
     border-radius: 6px;
-    margin-left: 550px;
-    margin-top: 5000px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -40px;
 }
