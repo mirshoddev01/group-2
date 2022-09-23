@@ -18,13 +18,12 @@ nav{
     padding: 20px;
 }
 .logo{
-    margin-left: 300px;
+    margin-left: 150px;
 }
 nav ul{
     display: inline-block;
     float: right;
     margin-top: -50px;
-    margin-right: 170px;
     cursor: pointer;
 }
 nav li{
