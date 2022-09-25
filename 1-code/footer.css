@@ -14,14 +14,16 @@ footer {
     width: 1920px;
     height: 560px;
     background: #00093C;
-    margin-top: 550px;
+    margin-top: 450px;
 }
 
 .footer_img_parent {
     margin-left: 280px;
     margin-top: 180px;
 }
-
+.info h2:hover{
+    text-decoration: underline;
+}
 .info_boxone {
     width: 200px;
     display: flex;
@@ -127,9 +129,6 @@ footer p {
     font-size: 14px;
     line-height: 34px;
     color: #BDBDBD;
-}
-.info h2:hover{
-    text-decoration: underline;
 }
 .boxtwo_h2{
     margin-top: 50px;
