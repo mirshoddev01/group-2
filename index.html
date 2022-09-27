@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,15 +23,19 @@
     <div class="container">
         <header>
             <nav>
-                <div class="logo">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="logo">
                     <img src="./Group 1.png" alt="">
                 </div>
                 <div class="lists">
-                    <ul>
+                    <ul data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <a href="">
                             <li><img src="./Group 15.png" class="lists-imgone" alt=""> Все курсы</li>
                         </a>
-                        <a href="">
+                        <a href="./3-code/code.html">
                             <li>Мероприятия</li>
                         </a>
                         <a href="">
@@ -53,38 +58,65 @@
                 </div>
             </nav>
             <div class="wrapper">
-                <img src="./slider 1.png" class="wrapper_fonimgone" alt="">
-                <div class="wrapper_fonboxtwo">
+                <img data-aos="fade-up"
+                data-aos-duration="3000" src="./slider 1.png" class="wrapper_fonimgone" alt="">
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="3000" class="wrapper_fonboxtwo">
                     <img src="./Group 594.png" alt="">
-                    <h1>Образовательная платформа</h1>
-                    <h2>ХОД Future Academy</h2>
-                    <h3>Актуальные знания для новичков и профессионалов</h3>
+                    <h1 data-aos="fade-right" data-aos-duration="3000">Образовательная платформа</h1>
+                    <h2 data-aos="fade-left" data-aos-duration="3000">ХОД Future Academy</h2>
+                    <h3 data-aos="fade-down" data-aos-duration="3000">Актуальные знания для новичков и профессионалов</h3>
                 </div>
             </div>
         </header>
         <section>
-            <img src="./Union.png" class="comment" alt="">
-            <div class="comment_text">
+            <img data-aos="fade-up"
+            data-aos-anchor-placement="bottom-center" src="./Union.png" class="comment" alt="">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-center" class="comment_text">
                 <h2>Кем вы хотите стать?</h2>
                 <h3>Пора найти себяи выбрать подходящий курс :)</h3>
                 <h4>Удачи!</h4>
             </div>
-            <img src="./Сова-01 1.png" class="comment_top" alt="">
+            <img data-aos="fade-up"
+            data-aos-anchor-placement="bottom-center" src="./Сова-01 1.png" class="comment_top" alt="">
             <div class="famly">
-                <img src="./Group 606.png" alt="">
-                <img src="./Group 607.png" alt="">
-                <img src="./Group 608.png" alt="">
+                <img data-aos="fade-up"
+     data-aos-duration="3000" src="./Group 606.png" alt="">
+                <img data-aos="fade-up"
+     data-aos-duration="3000" src="./Group 607.png" alt="">
+                <img data-aos="fade-up"
+     data-aos-duration="3000" src="./Group 608.png" alt="">
             </div>
             <div class="courses">
-                <div class="boxone">Робототехника</div>
-                <div class="boxtwo">Создание игр</div>
-                <div class="boxthree">Web-разработка</div>
-                <div class="boxfour">Мультимедиа</div>
-                <div class="boxfive">Шахматы</div>
-                <div class="boxsix">3D-моделирование и дизайн</div>
-                <div class="boxseven">Английский язык</div>
-                <div class="boxeight">Блогинг</div>
-                <div class="boxnine">Soft skills</div>
+                <a href="">
+                <div data-aos="fade-right" class="boxone">Робототехника</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxtwo">Создание игр</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxthree">Web-разработка</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxfour">Мультимедиа</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxfive">Шахматы</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxsix">3D-моделирование и дизайн</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxseven">Английский язык</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxeight">Блогинг</div>
+            </a>
+            <a href="">
+                <div data-aos="fade-right" class="boxnine">Soft skills</div>
+            </a>
             </div>
         </section>
         <section>
@@ -287,6 +319,10 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
